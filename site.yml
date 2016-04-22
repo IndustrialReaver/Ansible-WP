@@ -1,6 +1,6 @@
 ---
 - name: Install WordPress, MariaDB, Firewalld, Nginx, and PHP-FPM
-  hosts: wordpress-server
+  hosts: ec2.py
   remote_user: root
   # remote_user: user
   # sudo: yes
