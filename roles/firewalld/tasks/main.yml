@@ -1,7 +1,7 @@
 ---
-# This playbook will install MariaDB and create db user and give permissions.
+# This playbook will install Firewalld.
 
-- name: Install MariaDB package
+- name: Install Firewalld package
   yum: name=firewalld state=installed
    
 - name: Start firewalld Service
