@@ -2,6 +2,7 @@
 - name: Install WordPress, MariaDB, Firewalld, Nginx, and PHP-FPM
   hosts: tag_Name_WP_Candidate_65359de9
   remote_user: root
+  become: yes
   # remote_user: user
   # sudo: yes
 
